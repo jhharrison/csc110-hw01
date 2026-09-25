@@ -101,7 +101,7 @@ def main():
     # =============================================
     # Your code for part 4 under this line and before the print statements
     
-    result4 = 7 % 3
+    result4 = 100 % 13
     
     print("Part 4: result =", result4)
 
