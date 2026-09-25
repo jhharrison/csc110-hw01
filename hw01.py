@@ -60,7 +60,6 @@ def main():
     print("Part 1: b =", b)
     print("Part 1: c =", c)
     print("Part 1: result =", result1)
-    print()
 
     # End of Part 1 ----------------------
  
@@ -77,7 +76,6 @@ def main():
     print("Part 2: x =", x)
     print("Part 2: y =", y)
     print("Part 2: result =", result2)
-    print()
 
     # End of Part 2 ----------------------
 
@@ -90,12 +88,11 @@ def main():
     a = 100
     b = 13
     
-    result3 = int(a/b)
+    result3 = (a//b)
     
     print("Part 3: a =", a)
     print("Part 3: b =", b)
     print("Part 3: result =", result3)
-    print()
 
     # End of Part 3 ----------------------
 
@@ -103,6 +100,10 @@ def main():
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
+    
+    result4 = 7 % 3
+    
+    print("Part 4: result =", result4)
 
     # End of Part 4 ----------------------
 
