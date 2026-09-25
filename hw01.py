@@ -1,7 +1,7 @@
 # ------------------------------------------------------
 #        Name: (Jae Harrison)
 #       Peers: (add any collaborators)
-#  References: (anything you checked to solve this)
+#  References: (How to Think Like a Computer Scientist (online), lecture slides)
 # ------------------------------------------------------
 
 
@@ -53,6 +53,7 @@ def main():
     c = -1
     
     result1 = (3*x - 9*y)/((2*a)*(b - c))
+    #There was definitely a learning curve in remembering the proper way to type equations in Python, I had to go back to the textbook a few times)
     
     print("Part 1: x =", x)
     print("Part 1: y =", y)
@@ -72,6 +73,7 @@ def main():
     y = -3
     
     result2 = (x**2)*(y**4)
+    #I'm curious if this same method work for complex equations in superscript?
     
     print("Part 2: x =", x)
     print("Part 2: y =", y)
@@ -89,6 +91,7 @@ def main():
     b = 13
     
     result3 = (a//b)
+    #I initially had int(a/b) but I decided a//b was not only more concise but a helpful shortcut that I should take advantage of!
     
     print("Part 3: a =", a)
     print("Part 3: b =", b)
@@ -102,6 +105,7 @@ def main():
     # Your code for part 4 under this line and before the print statements
     
     result4 = 100 % 13
+    #I initially got this part wrong and didn't test it before I committed it, but it was a simple typo fix. 
     
     print("Part 4: result =", result4)
 
